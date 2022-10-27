@@ -1,0 +1,5 @@
+bp = float(input("Burger price: "))
+sp = float(input("Drink price: "))
+cp = float(input("Combo price: "))
+fp = float(((bp+sp))-cp)
+print(f"The fixed profit is : ${fp: 2f}")
